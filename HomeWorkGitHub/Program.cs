@@ -36,7 +36,7 @@ else
 
 //A (7,-5, 0); B (1,-1,9) -> 11.53
 
-Console.WriteLine("Введите координату X1 ");
+/* Console.WriteLine("Введите координату X1 ");
 int x1 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Введите координату Y1 ");
@@ -59,4 +59,18 @@ double distance = Math.Pow((Math.Pow(y1 - x1, 2) +
                          Math.Pow(y3 - x3, 2) *
                                    1.0), 0.5);
 
-Console.WriteLine("Distance is \n" + distance);
+Console.WriteLine("Distance is \n" + distance); */
+
+//Задача 23
+//Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+//3 -> 1, 8, 27
+//5 -> 1, 8, 27, 64, 125
+
+Console.WriteLine("Введите число N ");
+int N = int.Parse(Console.ReadLine());
+
+for(int i = 1; i <= N; i++)
+{
+    Console.Write(i*i*i + " ");
+}

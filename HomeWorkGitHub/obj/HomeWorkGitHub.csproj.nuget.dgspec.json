@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\HomeWorkGitHub.csproj": {}
+    "c:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\HomeWorkGitHub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\HomeWorkGitHub.csproj": {
+    "c:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\HomeWorkGitHub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\HomeWorkGitHub.csproj",
+        "projectUniqueName": "c:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\HomeWorkGitHub.csproj",
         "projectName": "HomeWorkGitHub",
-        "projectPath": "C:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\HomeWorkGitHub.csproj",
+        "projectPath": "c:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\HomeWorkGitHub.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\obj\\",
+        "outputPath": "c:\\Users\\User\\Desktop\\HomeWork_24_09_2022\\HomeWorkGitHub\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
