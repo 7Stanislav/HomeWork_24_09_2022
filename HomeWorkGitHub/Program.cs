@@ -4,7 +4,7 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.WriteLine("Введите пятизначное число");
+/* Console.WriteLine("Введите пятизначное число");
 int number = int.Parse(Console.ReadLine());
 if ((number > 99999) || (number < 10000))
 {
@@ -27,4 +27,36 @@ else
     {
         Console.WriteLine("Число не является палиндромом");
     }
-}
+} */
+
+//Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними
+//в 3D пространстве.
+
+//A (3,6,8); B (2,1,-7), -> 15.84
+
+//A (7,-5, 0); B (1,-1,9) -> 11.53
+
+Console.WriteLine("Введите координату X1 ");
+int x1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите координату Y1 ");
+int y1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите координату X2 ");
+int x2 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите координату Y2 ");
+int y2 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите координату X3 ");
+int x3 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Введите координату Y3 ");
+int y3 = int.Parse(Console.ReadLine());
+
+double distance = Math.Pow((Math.Pow(y1 - x1, 2) +
+                         Math.Pow(y2 - x2, 2) +
+                         Math.Pow(y3 - x3, 2) *
+                                   1.0), 0.5);
+
+Console.WriteLine("Distance is \n" + distance);
